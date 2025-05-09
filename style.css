@@ -43,11 +43,8 @@ header{
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
+  float: left;
 } 
-
-.logo:hover{
-  transform: scale(1.01);
-}
 
 nav a{
   font-size: 1.8rem;
@@ -171,7 +168,30 @@ section{
 }
 
 .circle-btn:hover {
-  background-color: white;
+  background-color: #419438;
+}
+
+.photo {
+  background-color: #ffe9e9;
+}
+
+.photo-img {
+  flex: 1;
+  text-align: right;
+}
+
+.photo-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video {
+  background-color: #f1edd2;
+}
+
+.design {
+  background-color: #f7eff9;
 }
 
 @media(max-width: 1000px){

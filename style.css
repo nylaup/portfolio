@@ -30,7 +30,6 @@ header{
   left: 0;
   width: 100%;
   padding: 1rem 2rem;
-  background-color: transparent;
   filter: drop-shadow(10px);
   display: flex;
   justify-content: space-between;
@@ -209,7 +208,6 @@ section{
 .photo-gallery img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
   object-fit: cover;
 }
 
@@ -220,6 +218,7 @@ section{
   gap: 8rem;
   background-color: #f1edd2;
 }
+
 
 .design {
   display: flex;
@@ -244,7 +243,6 @@ section{
 .design-content img {
   max-width: 80%;
   height: auto;
-  border-radius: 8px;
   margin: 2rem 0;
 }
 
@@ -265,7 +263,7 @@ section{
 footer {
   background-color: #dfd8d1;
   color: black;
-  text-align: center;
+  text-align: left;
   padding: 2rem 1rem;
   font-size: 1.4rem;
   margin-top: 4rem;

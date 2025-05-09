@@ -172,7 +172,15 @@ section{
 }
 
 .photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
   background-color: #ffe9e9;
+}
+
+.photo-content {
+  flex: 1;
 }
 
 .photo-img {

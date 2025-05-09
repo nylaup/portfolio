@@ -181,6 +181,7 @@ section{
   align-items: center; 
   text-align: center;
   background-color: #ffe9e9;
+  padding-top: 8rem;
 }
 
 .photo .photo-content h1{
@@ -233,14 +234,14 @@ section{
 .design {
   background-color: #f7eff9;
   padding: 4rem;
+  padding-top: 8rem;
 }
 
 .social-media-section {
   display: flex;            
   justify-content: space-between;
   align-items: center;        
-  margin-bottom: 4rem; 
-  padding-top: 20rem;      
+  margin-bottom: 4rem;      
 }
 
 .social-media-text {

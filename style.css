@@ -264,6 +264,12 @@ section{
   height: auto;
 }
 
+
+.socmed-content {
+  display: flex; 
+  justify-content: space-between;  
+}
+
 .design .soc-med-content h1{
   font-size: 6rem;
   font-weight: 700;
@@ -279,9 +285,13 @@ section{
 }
 
 .social-media-img {
-  width: 200px;
-  height: auto;
-  justify-content: right
+  display: flex;              
+  justify-content: flex-end;  
+}
+
+.social-media-img img {
+  width: 200px;         
+  height: auto;          
 }
 
 footer {

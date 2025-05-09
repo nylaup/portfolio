@@ -30,7 +30,6 @@ header{
   left: 0;
   width: 100%;
   padding: 1rem 2rem;
-  filter: drop-shadow(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -234,28 +233,24 @@ section{
 .design {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 8rem;
   background-color: #f7eff9;
+  padding: 2rem;
 }
 
-.design .design-content h1{
+.design .design-content {
+  max-width: 1200px;
+}
+
+.design .design-content h1,
+.design .design-content h2{
   font-size: 6rem;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .design .design-content h2{
-  font-size: 6rem;
-  font-weight: 700;
-  line-height: 1.3;
-  text-align: right;
-}
-
-.design-content p2{
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-  font-weight: 400;
   text-align: right;
 }
 
@@ -265,10 +260,14 @@ section{
   font-weight: 400;
 }
 
-.design-content img {
-  max-width: 80%;
+.social-media {
+  display: inline-block;
+  margin-right: 1rem; 
+}
+
+.social-media-img {
+  width: 200px;
   height: auto;
-  margin: 2rem 0;
 }
 
 .design-gallery {
@@ -300,7 +299,7 @@ footer {
 
 .sites {
   display: flex;
-  align-items: center;
+  align-items: right;
 }
 
 .image-link {

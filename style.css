@@ -28,7 +28,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1 rem 9%;
+  padding: 1rem 9%;
   background-color: transparent;
   filter: drop-shadow(10px);
   display: flex;
@@ -116,7 +116,7 @@ section{
 .home-content p{
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .home-img{
@@ -134,7 +134,6 @@ section{
 .btn{
   display: inline-block;
   padding: 1rem 2.8rem;
-  background-color: #ff9797;
   border-radius: 4rem;
   font-size: 1.6rem;
   color: black;
@@ -144,9 +143,35 @@ section{
   cursor: pointer;
 }
 
+.btn-photo {
+  background-color: #ff9797;
+}
+
+.btn-video {
+  background-color: #ffeb70;
+}
+
+.btn-design {
+  background-color: #ffa8f4;
+}
+
 .btn:hover{
   background-color: white;
   color: black;
+}
+
+.circle-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #57c44c;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.circle-btn:hover {
+  background-color: white;
 }
 
 @media(max-width: 1000px){

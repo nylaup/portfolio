@@ -195,10 +195,18 @@ section{
 }
 
 .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
   background-color: #f1edd2;
 }
 
 .design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
   background-color: #f7eff9;
 }
 

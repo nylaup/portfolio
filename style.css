@@ -234,14 +234,16 @@ section{
 .design {
   background-color: #f7eff9;
   padding: 4rem;
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 .social-media-section {
   display: flex;            
   justify-content: space-between;
   align-items: center;        
-  margin-bottom: 4rem;      
+  margin-bottom: 4rem; 
+  padding-left: 4rem;
+  padding-right: 4rem;     
 }
 
 .social-media-text {

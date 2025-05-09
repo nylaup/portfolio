@@ -251,7 +251,7 @@ section{
 }
 
 .design .design-content h2{
-  text-align: right;
+  text-align: left;
 }
 
 .design-content p{
@@ -260,9 +260,21 @@ section{
   font-weight: 400;
 }
 
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.text-left {
+  flex: 1; 
+  padding-right: 2rem;
+}
+
 .social-media {
   display: inline-block;
-  margin-right: 1rem; 
+  margin-left: 1rem;
 }
 
 .social-media-img {
@@ -287,6 +299,7 @@ section{
 footer {
   background-color: #dfd8d1;
   color: black;
+  display: flex;
   justify-content: space-between;
   padding: 2rem 1rem;
   font-size: 1.4rem;
@@ -299,7 +312,8 @@ footer {
 
 .sites {
   display: flex;
-  align-items: right;
+  justify-content: right;
+  align-items: center; 
 }
 
 .image-link {

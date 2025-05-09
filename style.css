@@ -231,68 +231,59 @@ section{
 }
 
 .design {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8rem;
   background-color: #f7eff9;
+  padding: 4rem;
 }
 
-.design .design-content h1{
-  font-size: 6rem;
+.social-media-section {
+  display: flex;            
+  justify-content: space-between;
+  align-items: center;        
+  margin-bottom: 4rem;       
+}
+
+.social-media-section h1 {
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 1.3;
 }
 
-.design-content p{
+.social-media-section p {
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  font-weight: 400;
-}
-
-.design-gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem; 
-  margin-top: 2rem;
-  flex-wrap: wrap; 
-}
-
-.design-gallery img {
-  width: 200px;       
-  height: auto;
-}
-
-
-.socmed-content {
-  display: flex; 
-  justify-content: space-between;  
-}
-
-.design .soc-med-content h1{
-  font-size: 6rem;
-  font-weight: 700;
-  line-height: 1.3;
-  text-align: left;
-}
-
-.soc-med-content p{
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-  font-weight: 400;
-  text-align: left;
 }
 
 .social-media-img {
-  display: flex;              
-  justify-content: flex-end;  
+  width: 200px; 
 }
 
 .social-media-img img {
+  width: 100%;
+  height: auto; 
+}
+
+.galleries-section {
+  text-align: center;   
+  margin-bottom: 4rem; 
+}
+
+.galleries-section h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;  
+}
+
+.design-gallery {
+  display: flex;         
+  justify-content: center;
+  gap: 1rem;             
+  flex-wrap: wrap;     
+}
+
+.design-gallery img {
   width: 200px;         
   height: auto;          
 }
+
 
 footer {
   background-color: #dfd8d1;

@@ -286,6 +286,11 @@ section{
   font-weight: 400;  
 }
 
+.projects-gallery img {
+  width: 150px;
+  height: auto;
+}
+
 .design-gallery {
   display: flex;         
   justify-content: center;

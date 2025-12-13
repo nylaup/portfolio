@@ -148,7 +148,7 @@ section{
   background-color: #ff9797;
 }
 
-.btn-video {
+.btn-projects {
   background-color: #ffeb70;
 }
 
@@ -211,7 +211,7 @@ section{
   object-fit: cover;
 }
 
-.video {
+.projects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,16 +219,23 @@ section{
   background-color: #f1edd2;
 }
 
-.video .video-content h1{
+.projects .projects-content h1{
   font-size: 6rem;
   font-weight: 700;
   line-height: 1.3;
 }
 
-.video-content p{
+.projects-content p{
   font-size: 1.6rem;
   margin-bottom: 1rem;
   font-weight: 400;
+  text-align: left;
+}
+
+.projects-gallery img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 .design {
@@ -284,12 +291,6 @@ section{
   font-size: 1.6rem;
   margin-bottom: 1rem;
   font-weight: 400;  
-}
-
-.projects-gallery img {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
 }
 
 .design-gallery {

@@ -219,6 +219,12 @@ section{
   background-color: #f1edd2;
 }
 
+.projects h2{
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
 .projects-gallery img {
   width: 45%;
   min-width: 400px;

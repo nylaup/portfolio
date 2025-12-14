@@ -221,7 +221,7 @@ section{
 
 .projects-gallery img {
   width: 45%;
-  min-width: 300px;
+  min-width: 600px;
   height: auto;
 }
 
@@ -305,6 +305,11 @@ section{
   height: auto;          
 }
 
+.instagram-wrapper {
+  max-width: 540px;  
+  margin: 0 auto;  
+  width: 100%;   
+}
 
 footer {
   background-color: #dfd8d1;

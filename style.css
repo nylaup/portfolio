@@ -222,7 +222,8 @@ section{
 }
 
 .projects-gallery img {
-  flex: 1 1 45%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
